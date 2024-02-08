@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: 'KoHo', sans-serif;
+}
+.top-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("bg-img.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem-ipsum{
+    width: 70vw;
+    height: 40vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.lorem-ipsum-img{
+    width: 50%;
+    height: 100%;
+    background-image: url(img/img1.png);
+    background-size: cover;
+    background-position: center;
+}
+.lorem-ipsum-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lorem-ipsum-text h2{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.lorem-ipsum-text p{
+    font-size: 25px;
+    font-weight: 400;
+}
+button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-family: 'KoHo', sans-serif;
+}
+
+
+
