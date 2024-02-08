@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Figma practice 1</title>
+    <style>
+        body{
+            margin:0;
+        }
+        header{
+            width:100vw;
+            height:20vh;
+            background: #D9D9D9;
+
+        }
+        header h1{
+            margin:0;
+        }
+        /*-----------------------------MAIN----------------------------*/
+        main{
+            display:flex;
+        }
+        article{
+            width:20vw;
+            height:60vh;
+            background: #817C7C;
+        }
+        section{
+            width:60vw;
+            height:30vh;
+        }
+        #content-1{
+            background: #ABA8A8;
+        }
+        #content-2{
+            background: #878484;
+        }
+        aside{
+            width:20vw;
+            height:60vh;
+            background: #B7AEAE;
+        }
+        .sections{
+            display:flex;
+            flex-direction:column;
+        }
+        /*-------------------------FOOTER---------------------------*/
+        footer{
+            width:100vw;
+            height:20vh;
+            background: #BDBDBD;
+        }
+        header,article,section,aside,footer{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size:1.5em;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <h1>Header</h1>
+</header>
+<main>
+    <article><span>News-1</span></article>
+    <div class="sections">
+        <section id="content-1"><span>Content-1</span></section>
+        <section id="content-2"><span>Content-2</span></section>
+    </div>
+    <aside><span>Sponsor</span></aside>
+</main>
+<footer><span>Footer</span></footer>
+</body>
+</html>

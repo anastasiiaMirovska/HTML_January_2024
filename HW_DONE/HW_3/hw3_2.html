@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Figma practice 2</title>
+    <style>
+        body{
+            margin:0;
+        }
+        header{
+            width:100vw;
+            height:20vh;
+            background: #8D8484;
+        }
+        header h1{
+            margin:0;
+        }
+        /*----------------------------MAIN----------------------------*/
+        main{
+            display:flex;
+            color:white;
+        }
+        main section{
+            width:75vw;
+            height:20vh;
+        }
+        main aside{
+            display:flex;
+            flex-direction: column;
+        }
+        main aside section{
+            width:25vw;
+            height:30vh;
+        }
+        .sections{
+            display:flex;
+            flex-direction: column;
+        }
+        #content-1{
+            background: #776969;
+        }
+        #content-2{
+            background: #643030;
+        }
+        #content-3{
+            background: #441818;
+        }
+        #spam-1{
+            background: #937575;
+        }
+        #spam-2{
+            background: #644C4C;
+        }
+        /*-----------------------------FOOTER---------------------------*/
+        footer{
+            width:100vw;
+            height:20vh;
+            background: #BDBDBD;
+        }
+        header,section,footer{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-size:1.5em;
+        }
+    </style>
+</head>
+<body>
+    <header><h1>Header</h1></header>
+    <main>
+        <div class="sections">
+            <section id="content-1"><span>Content-1</span></section>
+            <section id="content-2"><span>Content-2</span></section>
+            <section id="content-3"><span>Content-3</span></section>
+        </div>
+
+        <aside>
+            <section id="spam-1"><span>Spam-1</span></section>
+            <section id="spam-2"><span>Spam-2</span></section>
+        </aside>
+    </main>
+    <footer><span>Footer</span></footer>
+</body>
+</html>
