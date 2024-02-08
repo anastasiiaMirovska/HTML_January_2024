@@ -75,9 +75,11 @@ button:focus{
 .video-block h3{
     font-weight: 400;
     font-size:30px;
+    margin:0 0 15px 0;
 }
 .text-left p{
     width:63vw;
+    margin:3px;
 }
 /*------------------------------------THIRD BLOCK---------------------------------*/
 .card-block{
@@ -90,16 +92,19 @@ button:focus{
     background: rgba(83, 83, 83, 0.40);
     width:30vw;
     height:71vh;
-    padding:1.7vw 0;
+    padding:1.7vw 0 6vw 0;
     display:flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+.card-block section p{
+    width:90%;
+}
 .card-block img{
     width:27vw;
-    height:22vh;
+    height:25vh;
 }
 .card-block h2{
     font-weight: 400;
@@ -109,7 +114,6 @@ button:focus{
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin: 6vh 0;
 }
 .button-box span{
     margin-bottom:2vh;
