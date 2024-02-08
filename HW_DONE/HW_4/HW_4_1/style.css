@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    margin:0;
+    font-size:25px;
+    font-family: "KoHo",sans-serif;
+    font-weight: 400;
+}
+/*----------------------------------------FIRST BLOCK--------------------------------------*/
+.head-block{
+    background-image: url("images/darker_bg.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    display:flex;
+}
+.box{
+    display:flex;
+    flex-direction: row;
+}
+img{
+    width:35vw;
+    height:40vh;
+}
+.text-center{
+    width:35vw;
+    height:40vh;
+    background: #FAF9F7;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.text-center h1{
+    margin:0;
+    font-size: 45px;
+    font-weight: 400;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button{
+    width:27vw;
+    height:8vh;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "KoHo",sans-serif;
+    font-size:30px;
+}
+button:focus{
+    background: rgba(237, 237, 237);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25);
+}
+/*------------------------------------SECOND BLOCK--------------------------------*/
+.block{
+    background-image: url("images/white_bg.png");
+    height:100vh;
+}
+.video-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: column;
+}
+.video-block iframe{
+    width:63vw;
+    height:54vh;
+    margin:4vh 0;
+    border:none;
+}
+.video-block h3{
+    font-weight: 400;
+    font-size:30px;
+}
+.text-left p{
+    width:63vw;
+}
+/*------------------------------------THIRD BLOCK---------------------------------*/
+.card-block{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-block section{
+    background: rgba(83, 83, 83, 0.40);
+    width:30vw;
+    height:71vh;
+    padding:1.7vw 0;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card-block img{
+    width:27vw;
+    height:22vh;
+}
+.card-block h2{
+    font-weight: 400;
+    font-size:30px;
+}
+.button-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6vh 0;
+}
+.button-box span{
+    margin-bottom:2vh;
+}
+.button-box button{
+    color: #6B6666;
+}
