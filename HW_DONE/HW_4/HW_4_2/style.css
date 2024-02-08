@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+     text-decoration: none;
+}
+
+.blue{
+    color: #4f669a;
+}
+
+.grey{
+    color: #727272;
+}
+
+.thin-text{
+    font-weight: 400;
+}
+
+.flex-column-center{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row-center{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height:100vh;
+}
+
+.big-box{
+    width:45vw;
+    border:2px solid #DADADA;
+    padding: 60px 0;
+}
+
+.instagram-text{
+    font-family: 'Cookie', cursive;
+    font-weight: 600;
+    font-size:60px;
+    color:#262626;
+    margin: 0 0 40px 0;
+}
+
+input[type="submit"]{
+    background-color: #0097F4;
+    color:white;
+    border:none;
+    border-radius: 7px;
+    width:37vw;
+    padding:10px;
+    margin:12px 0 35px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size:16px;
+}
+
+input[type="text"],
+input[type="password"]{
+    width:35vw;
+    padding:10px;
+    border:1px solid #DADADA;
+    margin:5px 0;
+    text-overflow: ellipsis;
+    font-family: 'Roboto', sans-serif;
+}
+
+.facebook{
+    margin:20px 0;
+    font-weight: 900;
+}
+
+.facebook img{
+    width:2.5vw;
+    height:2.5vw;
+    margin:5px;
+}
+
+.small-box{
+    margin:10px 0;
+    width:45vw;
+    border:2px solid #DADADA;
+    padding:30px 0;
+}
+
+.small-box a{
+    color: #0097F4;
+    margin:0 10px;
+}
