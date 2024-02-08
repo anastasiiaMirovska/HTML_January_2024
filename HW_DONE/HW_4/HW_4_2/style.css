@@ -40,17 +40,17 @@ main{
 }
 
 .big-box{
-    width:45vw;
+    width:40vw;
     border:2px solid #DADADA;
-    padding: 60px 0;
+    padding: 80px 0;
 }
 
 .instagram-text{
     font-family: 'Cookie', cursive;
-    font-weight: 600;
-    font-size:60px;
+    font-weight: 500;
+    font-size:90px;
     color:#262626;
-    margin: 0 0 40px 0;
+    margin: 0 0 50px 0;
 }
 
 input[type="submit"]{
@@ -58,22 +58,23 @@ input[type="submit"]{
     color:white;
     border:none;
     border-radius: 7px;
-    width:37vw;
+    width:34vw;
     padding:10px;
     margin:12px 0 35px 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size:16px;
+    font-size:18px;
 }
 
 input[type="text"],
 input[type="password"]{
-    width:35vw;
+    width:32vw;
     padding:10px;
     border:1px solid #DADADA;
-    margin:5px 0;
+    margin:8px 0;
     text-overflow: ellipsis;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 .facebook{
@@ -84,12 +85,12 @@ input[type="password"]{
 .facebook img{
     width:2.5vw;
     height:2.5vw;
-    margin:5px;
+    margin:0 5px 0 -8px;
 }
 
 .small-box{
     margin:10px 0;
-    width:45vw;
+    width:40vw;
     border:2px solid #DADADA;
     padding:30px 0;
 }
