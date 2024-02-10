@@ -2,83 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Figma practice 2</title>
+    <title>Homework 3.2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sixtyfour&display=swap" rel="stylesheet">
+
     <style>
         body{
+            font-family: "Archivo", sans-serif;
+            color:#171717;
             margin:0;
         }
-        header{
-            width:100vw;
-            height:20vh;
-            background: #8D8484;
-        }
-        header h1{
+        .big-flex-box{
+            display:flex;
+            justify-content: center;
             margin:0;
         }
-        /*----------------------------MAIN----------------------------*/
-        main{
-            display:flex;
-            color:white;
-        }
-        main section{
-            width:75vw;
-            height:20vh;
-        }
-        main aside{
-            display:flex;
-            flex-direction: column;
-        }
-        main aside section{
-            width:25vw;
-            height:30vh;
-        }
-        .sections{
-            display:flex;
-            flex-direction: column;
-        }
-        #content-1{
-            background: #776969;
-        }
-        #content-2{
-            background: #643030;
-        }
-        #content-3{
-            background: #441818;
-        }
-        #spam-1{
-            background: #937575;
-        }
-        #spam-2{
-            background: #644C4C;
-        }
-        /*-----------------------------FOOTER---------------------------*/
-        footer{
-            width:100vw;
-            height:20vh;
-            background: #BDBDBD;
-        }
-        header,section,footer{
+        .flex-box{
             display:flex;
             justify-content: center;
             align-items: center;
-            font-size:1.5em;
+            align-content: center;
+            flex-wrap:wrap;
+            width:70vw;
+            height:100vh;
+        }
+        .card{
+            width:350px;
+            height:200px;
+            padding:25px;
+            margin:10px;
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius:10px;
+        }
+        .button-prototype{
+            padding:15px;
+            border-radius:10px;
+            background-color: black;
+            color: #eeeeee;
+            font-weight: 600;
+            width: fit-content;
+            letter-spacing: 1px;
+        }
+        h2{
+            margin:0;
+            font-weight: 700;
+            font-size: 30px;
+        }
+
+        #blue{
+            background-color: #699BF7;
+        }
+        #purple{
+            background-color:  #C7B9FF;
+        }
+        #yellow{
+            background-color:  #FFC700 ;
+        }
+        #red{
+            background-color: #FF8577;
         }
     </style>
 </head>
 <body>
-    <header><h1>Header</h1></header>
-    <main>
-        <div class="sections">
-            <section id="content-1"><span>Content-1</span></section>
-            <section id="content-2"><span>Content-2</span></section>
-            <section id="content-3"><span>Content-3</span></section>
+<div class="big-flex-box">
+    <div class="flex-box">
+        <div class="card" id="blue">
+            <div>
+                <span>Tutorial video</span>
+                <h2>Dev Mode tutorial</h2>
+            </div>
+            <div class="button-prototype"><u>Watch the video</u></div>
         </div>
-
-        <aside>
-            <section id="spam-1"><span>Spam-1</span></section>
-            <section id="spam-2"><span>Spam-2</span></section>
-        </aside>
-    </main>
-    <footer><span>Footer</span></footer>
+        <div class="card" id="purple">
+            <div>
+                <span>Blog post</span>
+                <h2>Making Figma better for developers</h2>
+            </div>
+            <div class="button-prototype"><u>Go to the blog</u></div>
+        </div>
+        <div class="card" id="yellow">
+            <div>
+                <span>Help center</span>
+                <h2>Guide to Dev Mode</h2>
+            </div>
+            <div class="button-prototype"><u>Read the article</u></div>
+        </div>
+        <div class="card" id="red">
+            <div>
+                <span>Playground</span>
+                <h2>Prototype with variables</h2>
+            </div>
+            <div class="button-prototype"><u>Go to the playground</u></div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

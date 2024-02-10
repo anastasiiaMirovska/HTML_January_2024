@@ -2,75 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Figma practice 1</title>
+    <title>Homework 3.1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;600&family=Sixtyfour&display=swap"
+          rel="stylesheet">
     <style>
-        body{
-            margin:0;
+        body {
+            font-family: "Archivo", sans-serif;
+            font-weight: bold;
         }
-        header{
-            width:100vw;
-            height:20vh;
-            background: #D9D9D9;
 
-        }
-        header h1{
-            margin:0;
-        }
-        /*-----------------------------MAIN----------------------------*/
-        main{
-            display:flex;
-        }
-        article{
-            width:20vw;
-            height:60vh;
-            background: #817C7C;
-        }
-        section{
-            width:60vw;
-            height:30vh;
-        }
-        #content-1{
-            background: #ABA8A8;
-        }
-        #content-2{
-            background: #878484;
-        }
-        aside{
-            width:20vw;
-            height:60vh;
-            background: #B7AEAE;
-        }
-        .sections{
-            display:flex;
-            flex-direction:column;
-        }
-        /*-------------------------FOOTER---------------------------*/
-        footer{
-            width:100vw;
-            height:20vh;
-            background: #BDBDBD;
-        }
-        header,article,section,aside,footer{
-            display:flex;
-            justify-content: center;
+        .flex-item {
+            display: flex;
+            flex-direction: column;
             align-items: center;
-            font-size:1.5em;
+            border-style: solid;
+            border-radius: 20px;
+            padding: 15px;
+            margin: 5px;
         }
 
+        .flex-item img {
+            width: 100px;
+        }
+
+        .flex-item span {
+            margin-top: 15px;
+        }
+
+        .flex-box {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 50%;
+            margin: 15px 0;
+        }
+
+        .big-flex-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            width: 60%;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-<header>
-    <h1>Header</h1>
-</header>
-<main>
-    <article><span>News-1</span></article>
-    <div class="sections">
-        <section id="content-1"><span>Content-1</span></section>
-        <section id="content-2"><span>Content-2</span></section>
+    <div class="big-flex-box">
+        <h1>Below are some popular topping options that will satisfy your palette while making you full.</h1>
+        <div class="flex-box">
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c247-2427884_85682.png" alt="">
+                <span>Pepper</span>
+            </div>
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c240-2427880_85675.png" alt="">
+                <span>Apple</span>
+            </div>
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c217-2427859_85693.png" alt="">
+                <span>Cheese</span>
+            </div>
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c245-2427889_85690.png" alt="">
+                <span>Corn</span>
+            </div>
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c239-2427893_85707.png" alt="">
+                <span>Mushroom</span>
+            </div>
+
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c238-2427878_85676.png" alt="">
+                <span>Garlic</span>
+            </div>
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c225-2427885_85692.png" alt="">
+                <span>Beef</span>
+            </div>
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c205-2427851_85705.png" alt="">
+                <span>Fish</span>
+            </div>
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c203-2427849_85703.png" alt="">
+                <span>Eggs</span>
+            </div>
+            <div class="flex-item">
+                <img src="https://cdn.icon-icons.com/icons2/1301/PNG/512/if-food-c235-2427892_85688.png" alt="">
+                <span>Coriander</span>
+            </div>
+        </div>
+        <h3>...that`s all</h3>
     </div>
-    <aside><span>Sponsor</span></aside>
-</main>
-<footer><span>Footer</span></footer>
 </body>
 </html>
