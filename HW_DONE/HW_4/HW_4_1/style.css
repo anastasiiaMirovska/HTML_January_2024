@@ -16,7 +16,7 @@ body{
     height:100vh;
     display:flex;
 }
-.box{
+.text-box{
     display:flex;
     flex-direction: row;
 }
