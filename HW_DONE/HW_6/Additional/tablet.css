@@ -1,0 +1,15 @@
+@media screen and (min-width: 501px) and (max-width: 1100px){
+    .article_box>article{
+        width:24vw;
+        height:50vh;
+        justify-content: center; /* Горизонтальне вирівнювання тексту у центрі */
+        align-items: center; /* Вертикальне вирівнювання тексту у центрі */
+        text-align: center; /* Вирівнювання тексту по центру (для IE) */
+        writing-mode: vertical-lr; /* Вертикальне вирівнювання тексту зліва направо */
+        text-orientation: mixed; /* Зберігає відображення тексту вертикально */
+        transform: rotate(180deg);
+    }
+    .article_box>article>span{
+        margin:50px;
+    }
+}

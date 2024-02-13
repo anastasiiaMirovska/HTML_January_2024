@@ -1,0 +1,26 @@
+@media screen and (min-width:300px) and (max-width:500px){
+    header{
+        width:100vw;
+        height:20vh;
+    }
+    article{
+        width:100vw;
+        height:35vh;
+    }
+    section{
+        width:33.33vw;
+        height:15vh;
+    }
+    aside{
+        width:100vw;
+        height:30vh;
+    }
+    main{
+        flex-wrap: wrap;
+    }
+    .box{
+        width:100vw;
+        display:flex;
+        flex-wrap:wrap;
+    }
+}
